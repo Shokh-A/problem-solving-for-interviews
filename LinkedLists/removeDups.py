@@ -24,6 +24,7 @@ class ListNode:
 class Solution:
 
   # Time - O(n)
+  # Space - O(n)
   def removeDups(self, node: ListNode) -> ListNode:
     seen = set()
     head = node
@@ -39,6 +40,7 @@ class Solution:
   
   # FOLLOW UP - NO BUFFER ALLOWED
   # Time - O(n^2)
+  # Space - O(1)
   def removeDupsFollowUp(self, node: ListNode) -> ListNode:
     head = node
     while node != None:
