@@ -2,7 +2,8 @@
 # Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
 
 # Brainstorming:
-#
+# Queue is stack in opposite order!
+# So in order to get queue from stack store items in opposite order.
 
 from stack import Stack
 

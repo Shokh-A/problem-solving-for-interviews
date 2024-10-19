@@ -21,3 +21,6 @@ class Stack:
   
   def __bool__(self):
     return bool(self.items)
+  
+  def __str__(self):
+    return str(self.items)
