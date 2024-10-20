@@ -7,10 +7,13 @@
 # Brainstorming:
 # Stacks are like annoying game advertisement with pourting different color of
 # luqiud from one bottle to another until all colors match in bottle.
+# This could be solved with merge sort or quick sort too.
 
 from stack import Stack
 
 class Solution:
+  # Time - O(n^2)
+  # Space - O(n)
   def sortStack(self, stack: Stack):
     sortedStack = Stack()
     while not stack.is_empty():
@@ -20,9 +23,6 @@ class Solution:
       sortedStack.push(pop)
 
     return sortedStack
-      
-    
-
 
 # Test
 sol = Solution()
